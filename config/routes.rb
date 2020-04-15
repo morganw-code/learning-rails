@@ -13,4 +13,6 @@ Rails.application.routes.draw do
 
   get "/redirectme", to: "pages#redirectme"
   get "/redirectedto", to: "pages#redirectedto"
+
+  get "/products", to: "products#index"
 end
