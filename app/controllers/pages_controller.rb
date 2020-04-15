@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
+    def index
+    end
+    
     def sayhi
         render plain: "hi"
     end

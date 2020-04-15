@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "/", to: "pages#index"
+
   get "/books", to: "books#index"
   get "/books/:id", to: "books#show"
   post "/books", to: "books#create"
